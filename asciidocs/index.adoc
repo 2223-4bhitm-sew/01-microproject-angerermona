@@ -1,0 +1,10 @@
+:icons: font
+:toc: left
+
+[plantuml,erd]
+----
+include::plantuml/erd.puml[]
+----
+
+
+
