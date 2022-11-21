@@ -1,0 +1,18 @@
+@startuml
+
+class User {
+}
+
+class Store {
+}
+
+class Product {
+}
+
+
+User "*" -- "*" Product
+(User, Product) .. Order
+Store "1" --- "*" Product
+
+
+@enduml
