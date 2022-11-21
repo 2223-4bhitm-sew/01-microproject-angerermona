@@ -1,18 +1,18 @@
 @startuml
 
-class user {
+class User {
 }
 
-class store {
+class Store {
 }
 
-class product {
+class Product {
 }
 
 
-user "*" -- "*" product
-(user, product) .. buy
-store "1" --- "*" product
+User "*" -- "*" Product
+(User, Product) .. Order
+Store "1" --- "*" Product
 
 
 @enduml
